@@ -10,7 +10,7 @@ from scipy.stats import randint
 
 
 # Load dataset
-file_path = 'hackathon-challenge/dataset.csv'
+file_path = 'dataset.csv'
 data = pd.read_csv(file_path)
 
 # Remove the unnamed: 133 column

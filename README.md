@@ -5,3 +5,8 @@ The module:
 - best_params.py: contains the code for generating the best combination of hyperparameters for the database model
 
 - app.py: contains the main code to train the machine learning model.
+
+**To run the application**
+```bash
+python3 -m app
+```

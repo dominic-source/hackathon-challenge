@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Load dataset
-file_path = 'hackathon-challenge/dataset.csv'
+file_path = 'dataset.csv'
 data = pd.read_csv(file_path)
 
 # Remove the unnamed: 133 column
