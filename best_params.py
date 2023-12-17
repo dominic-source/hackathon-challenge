@@ -16,6 +16,7 @@ data = pd.read_csv(file_path)
 # Remove the unnamed: 133 column
 data_cleaned = data.drop(columns=['Unnamed: 133'])
 
+# Drop all duplicated data in dataset
 data_cleaned = data_cleaned.drop_duplicates()
 
 # Separate features and target variables

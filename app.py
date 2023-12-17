@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split, KFold
+from sklearn.model_selection import KFold
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
@@ -73,5 +73,4 @@ def model_train_test(model, X, y):
 # Instantiate the Random Forest Classifier
 rf_classifier = RandomForestClassifier(max_depth=20, min_samples_split=4, n_estimators=472, random_state=42)
 
-# model_train_test(rf_classifier, X_train, y_train, X_val, y_val)
 model_train_test(rf_classifier, X.values, y.values)
